@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Codejam-Canvas</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<header>
+    <div class="navigation"><img src="img/nav-burger.svg" alt="navigation"></div>
+    <h1>CodeJam - Pallete</h1>
+    <div class="menu"><img src="img/menu-icon.svg" alt="menu"></div>
+</header>
+
+<section class="main-content">
+    <aside class="sidebar">
+        <ul class="instruments list">
+            <li><img src="img/paint-bucket.svg" alt="">Paint bucket</li>
+            <li><img src="img/dropper.svg" alt="">Choose color</li>
+            <li><img src="img/arrows-crossed.svg" alt="">Move</li>
+            <li><img src="img/arrows-parallel.svg" alt="">Transform</li>
+        </ul>
+        <ul class="color-management list">
+            <li>
+                <div class="circle grey"></div>
+                Current color
+            </li>
+            <li>
+                <div class="circle green"></div>
+                Prev color
+            </li>
+            <li>
+                <div class="circle red"></div>
+                red
+            </li>
+            <li>
+                <div class="circle blue"></div>
+                blue
+            </li>
+        </ul>
+    </aside>
+    <main>
+        <canvas width="512" height="512"></canvas>
+    </main>
+</section>
+
+
+<script src="codewarsLogo.js"></script>
+<script src="yellowSquare.js"></script>
+<script src="code.js"></script>
+</body>
+</html>
