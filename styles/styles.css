@@ -1,0 +1,89 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+  padding: 0 0 0 10px;
+}
+
+header {
+  direction: ltr;
+  display: flex;
+  box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0.75);
+  height: 48px;
+  align-items: center;
+}
+
+.menu {
+  margin-left: auto;
+  padding: 0px 15px 0 0;
+}
+
+li {
+  list-style: none;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.541327);
+}
+li:hover {
+  cursor: pointer;
+}
+
+.sidebar {
+  width: 300px;
+}
+
+.list {
+  width: 228px;
+  height: 246px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  justify-content: space-evenly;
+  margin: 50px 0 0 10%;
+}
+.list img {
+  margin: 0 15px 0 0;
+}
+.list .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #000000;
+  margin: 0 15px 0 0;
+}
+.list .red {
+  background: #F74141;
+}
+.list .green {
+  background: #41F795;
+}
+.list .grey {
+  background: #C4C4C4;
+}
+.list .blue {
+  background: #41B6F7;
+}
+
+.main-content {
+  display: flex;
+}
+.main-content main {
+  margin: 50px 0 0 5%;
+}
+.main-content main img {
+  width: 512px;
+  height: 512px;
+}
+
+canvas {
+  width: 512px;
+  height: 512px;
+  display: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
