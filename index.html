@@ -42,13 +42,20 @@
         </ul>
     </aside>
     <main>
-        <canvas width="512" height="512"></canvas>
+        <canvas id="canvas" width="512" height="512"></canvas>
+        <img id="rs-logo" src="img/rollingscopes.png" alt="rolling scopes logo">
     </main>
+    <aside class="img-switcher">
+        <ul class="list img-switch">
+            <li onclick="renderSquare()" class="yellow-square">4x4</li>
+            <li onclick="showCodeWarsLogo()" class="codewars-logo">32x32</li>
+            <li onclick="showRsLogo()" class="rs-logo">256x256</li>
+        </ul>
+    </aside>
 </section>
 
 
-<script src="codewarsLogo.js"></script>
-<script src="yellowSquare.js"></script>
-<script src="code.js"></script>
+<script src="js/patterns.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
